@@ -16,7 +16,7 @@ def get_song_language(filename):
     return language
 
 # specify the directory path
-path = "D:/آهنگ/mp3/"
+path = "Path_to_the_directory_which_contains_songs"
 
 # get a list of all the files in the directory
 files = os.listdir(path)
